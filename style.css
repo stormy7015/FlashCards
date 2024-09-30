@@ -10,6 +10,9 @@ body{
 .catoa{
     margin: 1rem 1rem;
     background-color: blueviolet;
+    height: 20rem;
+    flex: 1;
+    fle
 }
 
 footer{
