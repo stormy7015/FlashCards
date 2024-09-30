@@ -1,8 +1,28 @@
 body{
     background-color: brown;
+    font-family: bai jamjurre;
+}
+
+#container {
+  display::flex;
+}
+
+.catoa{
+    margin: 1rem 1rem;
+    background-color: blueviolet;
 }
 
 footer{
-    background-color: brown;
-    color:brown
+    background-color: rgba(11, 204, 252, 0.808);
+    color:rgba(22, 61, 192, 0.822)
+    position: fixed;
+    bottom:0 ;
+    width: 100;
+    heitght:2rem;
+}
+
+footer p{
+    text-alight:center;
+    font-size: 0.5rem;
+    margin-top: 0.5rem;
 }
