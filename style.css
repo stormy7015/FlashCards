@@ -4,7 +4,7 @@ body{
 }
 
 #container {
-  display::flex;
+  display: flex;
 }
 
 .catoa{
@@ -12,20 +12,35 @@ body{
     background-color: blueviolet;
     height: 20rem;
     flex: 1;
-    fle
+    
+}
+cartao__conteudo{
+    text-align: center;
+    background-color:blueviolet;
+    height:100%;
 }
 
 footer{
     background-color: rgba(11, 204, 252, 0.808);
-    color:rgba(22, 61, 192, 0.822)
+    color:rgba(22, 36, 192, 0.822);
     position: fixed;
-    bottom:0 ;
+    bottom: 0;
     width: 100;
-    heitght:2rem;
+    height: 2rem;
 }
 
 footer p{
-    text-alight:center;
+    text-align: center;
     font-size: 0.5rem;
     margin-top: 0.5rem;
+}
+.cartao_conteudo h3{
+    background-color: blue;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    margin: 0.6rem;
+    border-radius: 0.6rem;
+    font-size: 1vw;
+
 }
